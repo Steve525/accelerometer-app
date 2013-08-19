@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="175dp"
+    android:paddingBottom="50dp"
+    android:gravity="center_horizontal" >
+
+    <Button
+        android:id="@+id/record_bite_button"
+        android:layout_width="115dp"
+        android:layout_height="75dp"
+        android:text="@string/record_bite"
+        android:onClick="recordBite" />
+
+    <Button
+        android:id="@+id/record_non_bite_button"
+        android:layout_width="115dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/record_non_bite"
+        android:onClick="recordNonBite" />
+
+</LinearLayout>
